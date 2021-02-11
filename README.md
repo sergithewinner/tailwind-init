@@ -2,7 +2,11 @@
 
 # COMMANDS (Tested & Worked In Linux Mint Environment 20.04 LTS)
 
-# RUN IN TERMINAL >> CTRL + ALT + T >>
+# To Open Terminal >> CTRL + ALT + T
+
+# To Copy Command >> CTRL + C
+
+# To Paste Command in Terminal >> CTRL + SHIFT + V
 
 # cd ~
 
