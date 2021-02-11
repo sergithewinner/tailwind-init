@@ -15,7 +15,7 @@ sed -i s/test/build:css/g package.json
 printf '@tailwind base;\n@tailwind components;\n@tailwind utilities;' >> src/style.css
 npm run build:css
 touch .gitignore && echo "node_modules/" >> .gitignore && git rm -r --cached node_modules ; git status
-npm i -g live-server
+sudo npm i -g live-server
 live-server dist/ 
 npm install watch
 jq '.scripts += {watch: "watch npm run build:css ./src"}' package.json | sponge package.json
