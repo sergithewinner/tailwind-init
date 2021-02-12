@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" class="reset-this">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acme Web Design | Welcome</title>
+    <meta name="description" content="Affordable and professional web design" />
+    <meta
+      name="keywords"
+      content="web design, affordable web design, professional web design"
+    />
+    <meta name="author" content="sergithewinner" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset-this.css" />
+  </head>
+  <body class="">
+    <!-- header>(.container>(#branding>(h1>(span.highlight{Acme }){Web Design}))+(nav>ul>(.current>a[href="./index.html"]{Home})+(li>a[href="./about.html"]{About})+(li>a[href="./services.html"]{Services})))^section#showcase>(.container>h1{Affordable Proffesional Web Design}+p>lorem20)^section#newsletter>(.container>(h1{Subscribe To Our Newsletter})+(form>(input:email[placeholder="Enter Email.."])+button:submit.button_1{Subscribe}))^section#boxes>(.container>(.box>(img[src="./img/logo_html.png"])+h3{HTML5 Markup}+p>lorem10)+(.box>(img[src="./img/logo_css.png"])+h3{CSS3 Styling}+p>lorem10)+(.box>(img[src="./img/logo_brush.png"])+h3{Graphic Design}+p>lorem10))^footer>p>{Acme Web Design, Copyright &copy; 2021} -->
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1 class="">
+            <span class="highlight text-red-500">Acme</span>
+            Web Design
+          </h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="showcase">
+      <div class="container">
+        <h1>Affordable Proffesional Web Design</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
+          nesciunt illo et minus maxime hic voluptas, est deserunt. Odit,
+          fugiat.
+        </p>
+      </div>
+    </section>
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form action="">
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="Enter Email.."
+          /><button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/logo_html.png" alt="" />
+          <h3>HTML5 Markup</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            accusantium.
+          </p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_css.png" alt="" />
+          <h3>CSS3 Styling</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae,
+            assumenda.
+          </p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_brush.png" alt="" />
+          <h3>Graphic Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem,
+            at.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Acme Web Design, Copyright &copy; 2021</p>
+    </footer>
+  </body>
+</html>

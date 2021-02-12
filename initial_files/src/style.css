@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============ MARGINS & PADDINGS ===============*/
+/* @layer utilities {
+  .mt10 {
+    margin-top: 10px;
+  }
+  .pb20 {
+    padding-bottom: 20px;
+  }
+  .mt40 {
+    margin-top: 40px;
+  }
+  .mb5 {
+    margin-bottom: 5px;
+  }
+  .p20 {
+    padding: 20px;
+  }
+  .mt20 {
+    margin-top: 20px;
+  }
+  .p5 {
+    padding: 5px;
+  }
+  .w90 {
+    width: 90%;
+  }
+  .w30 {
+    width: 30%;
+  }
+  .w90 {
+    width: 90px;
+  }
+  .p10 {
+    padding: 10px;
+  }
+  .p4 {
+    padding: 4px;
+  }
+  .h25 {
+    height: 25px;
+  }
+  .w250 {
+    width: 250px;
+  }
+  .mt-15 {
+    margin-top: 15px;
+  }
+  .p15 {
+    padding: 15px;
+  }
+
+  .mb10 {
+    margin-bottom: 10px;
+  }
+  .my-mt100 {
+    margin-top: 100px;
+  }
+  .my-bgurl {
+    background: url(../img/showcase.jpg) no-repeat 0 -400px;
+  }
+
+  .px20 {
+    padding: 0 20px;
+  }
+  .pt30 {
+    padding-top: 30px;
+  }
+  .pr20 {
+    padding-right: 20px;
+  }
+}
+
+/* ============== FONT-SIZE =============== */
+/* .f15 {
+  @apply font-size: 15px;
+}
+
+.f16 {
+  @apply font-size: 16px;
+}
+
+.f20 {
+  @apply font-size: 20px;
+}
+
+.f55 {
+  @apply font-size: 55px;
+} */
+
+/* =============== WIDTH & HEIGHT ============= */
+/* .w65 {
+  @apply width: 65%;
+}
+
+.minh70 {
+  @apply min-height: 70px;
+}
+
+.bw3 {
+  @apply border-width: 3px;
+}
+
+.minh {
+  @apply min-height: 400px;
+}
+
+.h38 {
+  @apply height: 38px;
+}
+
+.minh30 {
+  @apply min-height: 30px;
+}  */
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+ */
