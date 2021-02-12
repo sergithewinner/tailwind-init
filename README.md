@@ -1,25 +1,19 @@
-# TailwindCSS First Initialization
+# TailwindCSS Install Script
 
-# COMMANDS (Tested & Worked In Linux Mint Environment 20.04 LTS)
+Script is completely written by me (sergithewinner) with little help of guides and documentations.
 
-# To Open Terminal >> CTRL + ALT + T
+### Installation
 
-# To Copy Command >> CTRL + C
+This Script Tested & Worked Under [Linux](https://www.linux.org/pages/download/)
 
-# To Paste Command in Terminal >> CTRL + SHIFT + V
+Open bash terminal and paste commands one by one:
 
-# cd ~
-
-# sudo apt update && sudo apt upgrade -y
-
-# sudo apt install git -y
-
-# mkdir -p work/TailwindCSS-$(date +"%d-%m-%Y")
-
-# cd work/TailwindCSS-$(date +"%d-%m-%Y")
-
-# git clone https://github.com/sergithewinner/tailwind-init.git
-
-# cd tailwind-init/
-
-# code . && bash setup.sh
+```sh
+$ sudo apt update && sudo apt upgrade -y
+$ sudo apt install git -y
+$ mkdir -p work/TailwindCSS-$(date +"%d-%m-%Y")
+$ cd work/TailwindCSS-$(date +"%d-%m-%Y")
+$ git clone https://github.com/sergithewinner/tailwind-init.git
+$ cd tailwind-init/
+$ code . && bash setup.sh
+```
