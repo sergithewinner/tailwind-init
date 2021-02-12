@@ -9,6 +9,7 @@ This Script Tested & Worked Under [Linux](https://www.linux.org/pages/download/)
 Open bash terminal and paste commands one by one:
 
 ```sh
+$ cd ~
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt install git -y
 $ mkdir -p work/TailwindCSS-$(date +"%d-%m-%Y")
