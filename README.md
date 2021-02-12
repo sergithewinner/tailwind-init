@@ -6,15 +6,11 @@ Script is completely written by me (sergithewinner) with little help of guides a
 
 This Script Tested & Worked Under [Linux](https://www.linux.org/pages/download/)
 
-Open bash terminal and paste commands one by one:
+Please clone repo on Desktop or somewhere else than work folder to make backup files
+(after installation there will be two folders one Desktop & one Work Folder)
+
+After cloning repo, open bash terminal & run script:
 
 ```sh
-$ cd ~
-$ sudo apt update && sudo apt upgrade -y
-$ sudo apt install git -y
-$ mkdir -p work/TailwindCSS-$(date +"%d-%m-%Y")
-$ cd work/TailwindCSS-$(date +"%d-%m-%Y")
-$ git clone https://github.com/sergithewinner/tailwind-init.git
-$ cd tailwind-init/
-$ code . && bash setup.sh
+$ bash setup.sh
 ```
