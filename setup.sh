@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~
 sudo apt update && sudo apt upgrade -y
 sudo apt-get purge --auto-remove nodejs -y
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
